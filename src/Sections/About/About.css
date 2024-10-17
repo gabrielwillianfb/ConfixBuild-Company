@@ -1,0 +1,45 @@
+#about {
+  background: var(--bg-secondary);
+}
+
+#about .grid {
+  display: grid;
+  grid-template-columns: 400px auto;
+  gap: 1rem;
+}
+
+#about .about__image {
+  overflow: hidden;
+  border-radius: var(--radius-2);
+  max-width: 400px;
+  margin: auto;
+}
+
+#about .keypoint {
+  margin: 10px 0;
+  gap: 10px;
+}
+
+#about .keypoint .icon__container {
+  border: var(--primary-border);
+}
+
+#about .achieve {
+  margin-top: 40px;
+  background-image: url(../../assets/background.jpg);
+  background-size: cover;
+  border-radius: var(--radius-2);
+  overflow: hidden;
+}
+
+#about .achieve .overlay {
+  padding: 1.5rem;
+}
+
+/* Media Queries */
+
+@media (max-width: 930px) {
+  #about .grid {
+    grid-template-columns: 100%;
+  }
+}

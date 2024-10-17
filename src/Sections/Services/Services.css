@@ -1,0 +1,57 @@
+#services {
+  background-image: url(../../assets/sketch.png);
+  background-size: cover;
+}
+
+#services .grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: auto 450px;
+}
+
+#services .grid.services {
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 40px;
+}
+
+#services .image__contain {
+  max-width: 450px;
+  margin: auto;
+}
+
+#services .service {
+  background: var(--bg-secondary);
+  border-radius: var(--radius-2);
+  box-shadow: var(--box-shadow);
+  padding: 30px 20px;
+}
+
+#services .service .top {
+  align-items: center;
+  gap: 10px;
+}
+
+#services .service .icon__container {
+  border: var(--primary-border);
+}
+
+#services .service .middle {
+  margin: 20px 0;
+}
+
+/* Media Queries */
+
+@media (max-width: 930px) {
+  #services .grid {
+    grid-template-columns: 100%;
+  }
+  #services .grid.services {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 700px) {
+  #services .grid.services {
+    grid-template-columns: 100%;
+  }
+}

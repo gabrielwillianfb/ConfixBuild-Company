@@ -1,0 +1,8 @@
+.social__handles {
+  align-items: center;
+  gap: 5px;
+}
+
+.social__handles .icon__container {
+  border: var(--gray-border);
+}

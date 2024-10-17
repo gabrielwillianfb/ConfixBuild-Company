@@ -1,0 +1,8 @@
+.theme__toggle .react-toggle--checked .react-toggle-track {
+  background: linear-gradient(var(--primary), var(--primary-accent));
+}
+
+.theme__toggle .react-toggle--focus .react-toggle-thumb {
+  box-shadow: none;
+  border: none;
+}

@@ -1,0 +1,26 @@
+.why__choose__us {
+  box-shadow: var(--box-shadow);
+  background-color: var(--bg-secondary);
+  border-radius: var(--radius-2);
+}
+
+.why__choose__us .why__item {
+  padding: 20px;
+  text-align: center;
+  flex-direction: column;
+}
+
+.why__choose__us .why__item .icon__container {
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: var(--primary);
+  margin: auto;
+}
+
+.why__choose__us .why__item .title {
+  font-size: var(--font-size-base);
+}
+
+.why__choose__us .muted {
+  font-size: var(--font-size-small);
+}
